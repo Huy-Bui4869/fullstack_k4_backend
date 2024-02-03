@@ -56,7 +56,7 @@ module.exports = {
         }
       );
       const link = `http://localhost:3000/auth/reset-password?token=${token}`;
-      console.log("link", link);
+      console.log("link reset-password", link);
 
       const info = await sendMail(
         body.email,
